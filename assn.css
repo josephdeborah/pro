@@ -1,0 +1,56 @@
+table,th,td{
+    border: 1px solid black;
+    border-collapse:collapse; 
+}
+th,td{
+    padding: 32px;
+}
+table{
+    margin-left: 32px;
+}
+th{
+    background-color: aquamarine;
+}
+.ash{
+    background-color:rgb(255, 240, 242);
+}
+.pink{
+    background-color: crimson;
+}
+.light{
+    background-color: rgb(196, 222, 255);
+}
+.purple{
+    background-color: blueviolet;
+}
+.blue{
+    background-color: chartreuse;
+    border-color: chartreuse ;
+}
+.grey{
+    background-color: aquamarine;
+}
+.darkblue{
+    background-color: cornflowerblue;
+}
+.orange{
+    background-color: rgb(0, 151, 252);
+}
+.darkpink{
+    background-color: darkgrey;
+}
+.darkorange{
+    background-color: cornflowerblue;
+}
+.green{
+    background-color: cyan;
+}
+.yellow{
+    background-color: chartreuse;
+    border-color: chartreuse ;  
+}
+
+.gof{
+    background-color: rgb(43, 226, 125);
+
+}

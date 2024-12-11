@@ -1,0 +1,100 @@
+body{
+    background-color:rgb(145, 236, 142);
+   
+    font-family: "Roboto", system-ui;
+ 
+  
+
+}
+ div{
+    background-color: white;
+   /* margin-top: 100px; */
+   line-height: 16px;
+}
+.go{
+    margin-top: 23vh;
+    margin-left: 50vh;
+    margin-right: 62vh;
+
+    padding-top: 15vh;
+    padding-bottom: 8vh;
+    /* padding-left: 29vh; */
+    border-radius: 7px;
+    /* cursor: s-resize; */
+    box-shadow: 0 0 25px rgb(185, 238, 160);
+    
+}
+.img{
+    padding-left: 32vh; 
+}
+
+a{
+    text-decoration: none;
+    color: wheat;
+}
+.bt{
+    padding-left: 29vh; 
+}
+.yes{
+    background-color: rgb(255, 8, 8);
+    padding-left: 10px;
+    margin-left: 23px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 18px;
+    border: 3px solid wheat;
+    transition: 0.3s ease ;
+    box-shadow: 0  0 20px red;
+    /* box-shadow: 25px  15px 25px red; */
+    
+}
+.yes:hover{
+    opacity: 0.7;
+    border-radius: 22px;
+    /* box-shadow: 15px  8p?x 0.5px red; */
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-shadow: 0  0 25px red,
+    0  0 30px red;
+
+}
+.yes:active{
+    background-color: red;
+    cursor: progress;
+}
+.no{
+    background-color: green;
+    margin-left: 6px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left:10px ;
+    border-radius: 18px;
+    margin-top: 12px;
+    border: 3px solid wheat;
+    box-shadow: 0  0 20px green;
+    transition: 0.3s ease;
+   
+   
+}
+.no:hover{
+    opacity: 0.7;
+    border-radius: 22px;
+    box-shadow: 0  0 25px green,
+    0  0 30px green;
+    /* box-shadow: 15px  8px 0.5px green; */
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 12px;
+
+}
+p{
+  font-size:x-large;  
+  /* padding-right: 2px; */
+  padding-left: 20vh;
+}

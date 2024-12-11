@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    background-color: aqua;
+    padding: 3px;
+    margin: 0;
+   position:sticky;
+}
+.deb{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    background-color: aliceblue;
+}
+.nav ul {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    font-size: 23px;
+    font-family: cursive;
+    background-color: aquamarine;
+    
+}
+li a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.d{
+    margin-left: 12px;
+    font-size: 30px;
+}
+.fashion{
+    display: flex;
+    
+}
+.jpo{
+}
+img{
+    margin-top: 12px;
+}
+span{ margin-left: 39 px;
+
+}
+footer{
+    background-color:lightseagreen;
+    padding: 40px;
+}
+li a {
+    width: 50px;
+    height: 3px;
+}
+images::hover{ background-color: red;
+    transition-duration: 3s;
+    color: white;
+
+    
+}
+.icon svg-facebook{
+    width:60px;
+    height: 60px;
+    top: 23cm;
+    box-sizing:3px;
+
+}
+a{
+    text-decoration: none;
+}
+.ft{
+    font-size: 30px;
+    background-color:palevioletred;
+    font-family: cursive;
+    color: blue;
+}

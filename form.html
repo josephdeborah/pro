@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body style="background: url(supermarket.jpg)no-repeat;background-size: cover;">
+    <div class="saw">
+     <!-- <p>User personal information</p> -->
+        <form action="">
+          <fieldset class="text moving" >
+          <legend  style="text-align:left;font-size: 12px;">User personal information</legend>
+          <marquee behavior="alternate" direction="right"><h3 style="color: blue;">fill the form,a necessary action</h3></marquee>
+            <label for="fullname"><b>Enter the full name:</b></label><br>
+            <input class="Dear" type="text"id="fullname"name="full name"required><br><br>
+            <label for="email"><b>Enter your email:</b></label><br>
+            <input type="email"id="email"name="email address"placeholder="Enter your email"required><br><br>
+            <label for="password"><b>password:</b></label><br>
+            <input type="password"id="password"name="password" maxlength="7"><br><br>
+         <label for=" confirm"><b>confirm your password:</b></label><br>
+            <input type="password"id="confirm"name="confirm" pattern="confirm"><br><br>
+            <label for="amout"><b>type of good being purchase </b></label>
+            <input type="text" name="type of good"><br><br>
+            <label for="gender"><b>Enter your gender:</b></label><br>
+            <input type="radio"id="male"name="gender"value="male">
+            <label for="male"><b>male</b></label>
+            <input type="radio"id="female"name="gender" value="female">
+            <label for="female"><b>female</b></label>
+            <input type="radio"id="others" name="gender"value="others">
+            <label for="others"><b>others:</b></label><br><br>
+            <label for="date"><b> Enter your date of birth:</b></label><br>
+            <input type="date"name="date"><br><br>
+            <label for="address"><b>Enter the your address:</b></label><br>
+            <input type="text"id="adddress"name="address"re><br><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            </fieldset>
+          </form>
+        </div>
+          </body>
+          
+</html>

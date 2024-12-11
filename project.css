@@ -1,0 +1,17 @@
+label{
+    /* padding: 10px; */
+}
+input{
+    /* padding: 16px; */
+}
+.big{
+
+    /* font-size: larger; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+label,input{
+    /* background-color: azure; */
+}
+body{
+    /* background-color: aquamarine; */
+}

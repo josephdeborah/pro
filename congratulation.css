@@ -1,0 +1,261 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+*{
+    background-color:rgb(145, 236, 142);
+
+
+    font-family: "Roboto", system-ui ;
+   
+  }
+  div{
+    background-color: white;
+    border-radius: 3px;
+  }
+ 
+p{
+    font-size: large;
+    font-weight: bolder;
+}
+
+.ok{
+    text-decoration: none;
+    background-color:white ;
+    /* color:green; */
+    transition: 0.7s ease;
+}
+.gt{
+    font-size: large;
+    font-weight: 400;
+    padding-left: 19px;
+    margin-left: 19px;
+}
+a:hover{
+    /* opacity: 0.7; */
+}
+a:active{
+    /* background-color: gold; */
+    /* cursor: progress; */
+
+
+}
+
+button{
+    border: 2px solid green;
+    background-color: green;
+
+
+}
+
+
+span{
+    background-color: white;
+}
+ol{
+    background-color: white;
+}
+.rule{
+    background-color: white;
+}
+ol li{
+    background-color: white; 
+}
+
+.bottom{
+    position: absolute;
+    background-color:green;
+    padding-right: 40px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 6px;
+    margin-left: 7px;
+}
+.dis{
+    /* display: block; */
+    justify-content: space-between;
+    margin-bottom: 3px;
+    background-color: white;
+
+}
+.down{
+    margin-left: 16px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    padding-right: 70.9vh;
+    /* padding-right: 62.2vh; */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    background-color: rgb(152, 253, 152);
+}
+.dow{
+    margin-left: 16px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    padding-right: 60vh;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    background-color: rgb(152, 253, 152) ;
+}
+.d{
+    margin-left: 16px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    padding-right: 71.8vh;
+    /* padding-right: 62.2vh; */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    background-color: rgb(152, 253, 152) ;
+}
+.ok{
+    background-color:rgb(152, 253, 152)  ;
+}
+.down:hover{
+    /* opacity: 0.7; */
+    /* border: 2px solid ghostwhite; */
+}
+.down:active{
+    background-color: green;
+    box-shadow: 0 0 25px green;
+}
+.r{
+    margin-left: 16px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    padding-right: 69vh;
+    /* padding-right: 62.2vh; */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    background-color: rgb(152, 253, 152) ;
+}
+.all{
+    margin-top: 15vh;
+    margin-left: 54vh;
+    margin-right: 62vh;
+    background-color: white;
+    /* padding-left: 14px; */
+    /* padding-top: 5px; */
+    padding-bottom: 5px;
+
+}
+  .l1{
+/* padding-right: 12px; */
+    /* font-size: xx-large; */
+    
+}
+.ol{ padding-left: 0px;
+    padding-top: 5px;
+    /* padding-left: 14px; */
+    padding-top: 5px;
+    font-size: x-large;
+    margin-left: 16px;
+
+}
+li{
+
+}
+.dis{
+ padding-left: 14px;
+    padding-top: 5px;
+}
+p{
+    padding-left: 3px;
+    padding-top: 5px;
+    font-size: larger;
+}
+ol li b{
+    background-color: white;
+}
+.cover{
+    background-color: white;
+    padding-left: 8px;
+    padding-top: 5px; 
+    /* font-size: xx-large; */
+    margin-left: 16px;
+}
+.up{
+    position: relative;
+    margin-left: 68px;
+    margin-top: 5px;
+    background-color:rgb(12, 255, 12);
+    color: white;
+    padding-right: 8px;
+    padding-left:12px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    border-radius: 6px;
+
+
+}
+.flex{
+    display: flex;
+    padding-bottom: 0;
+}
+.b{
+    padding-left:29vh;
+    padding-top: 16px; 
+    border-radius: 3px;
+}
+.happy{
+    padding-left: 20px;
+
+    margin-top: 62vh;
+    margin-left: 50vh;
+    margin-right: 50vh;
+    background-color: white;
+    padding-bottom: 23px;
+}
+.derh{
+
+    background-color: white;
+}
+
+p{
+    background-color: white;
+    padding-bottom: 0;
+}
+pre{
+    background-color: white;
+}
+a{
+    font-family: "Roboto", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+.rule{
+    background-color: white;
+}
+
+.hy{
+    background-color: white;
+}
+.color{
+    color: green;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    justify-content: space-between;
+}
+.rz{
+    background-color: green;
+    margin-right: 10vh;
+    border-radius: 9px;
+
+}
+.re{
+    background-color: green;
+    margin-left 20vh;
+    border-radius: 9px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 2px;
+    margin-top: 19px;
+    /* margin-bottom: 12vh; */
+}
+.urgent{
+    margin-bottom: ;
+}

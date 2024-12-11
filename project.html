@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <form action="#" method="post" target="-self">
+        <label for="fname">First name:</label>
+        <input type="text"id="fname" name="first name"placeholder="enter your first name" pattern="(?=.*{a-z})"><br><br>
+        <label for="lname" class="big">last name :</label>
+        <input type="text"id="lname" name="last name"placeholder="enter your last name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email"id="enter" name="email address"placeholder="enter your email-address"><br><br>
+        <label for="password">password</label>
+        <input type="password"id="password" name="password"placeholder="At least 8 character"pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[&%#@+]).{8,}"title="must contain a letter(upper case and lower case),a number,a symbol and at least 8 character or more"><br><br> 
+        <label for="tpn">Telephone:</label>
+        <input type="number"id="tpn" name="telephone"placeholder="+234..."><br><br>
+       <label for="dob">Date of birth:</label>
+        <input type="date"id="dob" name="date-of-birth"><br><br>
+        <label for="age">Age:</label>
+        <input type="number"id="age" name="age" min="18"max="45"><br><br>
+        <label for="gender">Gender:</label><br><br>
+        <label for="male">Male</label>
+        <input type="radio"id="male"name="gender"value="male">
+        <label for="female">Female</label>
+        <input type="radio"id="female"name="gender"value="female"><br><br>
+        <label for="cotinents">which continent is your hometown</label>
+        <select name="cotinents" id="cotinents">
+            <option value=""></option>
+           <option value="africa">africa</option>
+            <option value="antarctica">antarctica</option>
+            <option value="asia">asia</option>
+             <option value="australia">australia/oceania</option>
+             <option value="europe">europe</option>
+             <option value="north america">north america</option>
+             <option value=" south america">south america</option>
+  </select><br><br>      
+    <label for="weather"class="big">what is your favorite weather</label><br><br>
+  <input type="checkbox"id="sunny"name="weather"value="sunny">
+  <label for="sunny">sunny</label>
+  <input type="checkbox"id="rainy"name="weather"value="rainy">
+  <label for="rainy">rainy</label>
+  <input type="checkbox"id="snowy"name="weather"value="snowy">
+  <label for="snowy">snowy</label><br><br>
+  <label for="colour"class="big">what is your favorite colour</label>
+        <input type="color"id="colour" name="color"><br><br>
+<label for="comment">what do you enjoy doing during leisure time</label>
+<textarea name="comment" id=""></textarea><br>
+
+<input type="submit" value="submit"class="big"> 
+         </form>
+   </body>
+</html>

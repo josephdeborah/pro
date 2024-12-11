@@ -1,0 +1,32 @@
+table,th,td{
+    border: 2px solid black;
+    border-collapse:collapse ;
+}
+th{
+    border:3px solid black;
+    padding: 32px;
+}
+h1{
+    padding-left: 7cm;
+    font-family: monospace;
+}
+p,li,th,td{
+    padding: left 1px;;
+}
+body{
+    background-image: repeating-radial-gradient();
+    background-color: azure;
+}
+h1{
+    color: blueviolet;
+
+}
+.das{
+    background-color: aqua;
+}
+p,td{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li,th{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
